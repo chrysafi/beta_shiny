@@ -15,29 +15,29 @@ shinyUI(fluidPage(
     sidebarPanel
     (
       
-        column(6,sliderInput("m_a", "Mean dataset a", 
+        column(6,sliderInput("m", "Mean dataset a", 
                   min=0, max=1, value=0.4)),    
       
       
-      column(6,sliderInput("sd_a", "Sigma dataset a", 
+      column(6,sliderInput("sd", "Sigma dataset a", 
                  min = 0, max = 0.5, value = 0.2)),
-      column(6,sliderInput("m_b", "Mean dataset b", 
+      column(6,sliderInput("m2", "Mean dataset b", 
                   min=0, max=1, value=0.4)),    
       
       
-      column(6,sliderInput("sd_b", "Sigma dataset b", 
+      column(6,sliderInput("sd2", "Sigma dataset b", 
                   min = 0, max = 0.5, value = 0.2)),
-      column(6,sliderInput("m_c", "Mean dataset c", 
+      column(6,sliderInput("m3", "Mean dataset c", 
                   min=0, max=1, value=0.4)),    
       
       
-      column(6,sliderInput("sd_c", "Sigma dataset c", 
+      column(6,sliderInput("sd3", "Sigma dataset c", 
                   min = 0, max = 0.5, value = 0.2)),
-      column(6,sliderInput("m_d", "Mean dataset d", 
+      column(6,sliderInput("m4", "Mean dataset d", 
                            min=0, max=1, value=0.4)),    
       
       
-      column(6,sliderInput("sd_d", "Sigma dataset d", 
+      column(6,sliderInput("sd4", "Sigma dataset d", 
                            min = 0, max = 0.5, value = 0.2)),
     
       column(10,
